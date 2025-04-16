@@ -50,7 +50,15 @@ set OPENAI_API_KEY=your-api-key-here
 ```
 
 ---
-### 4. Example
+
+### 4. How to Use
+
+```bash
+python classify_question.py
+```
+---
+
+### 5. Example
 
 ```bash
 Write the question: What were HPE’s net earnings in Q2 2024?
@@ -59,10 +67,3 @@ Factual
 
 ---
 
-
-### 4. How to Use
-
-```bash
-python classify_question.py
-```
----
