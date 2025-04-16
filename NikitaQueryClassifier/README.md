@@ -65,5 +65,6 @@ Keyword-Based Features: Whether there are phrases involving financial metrics (e
 Custom Matching: PhraseMatcher from spaCy is utilized to identify HPE-specific terms that normal NER may overlook
 
 These features are output as a fixed-length list and added to the sentence embedding
+
 3. Classification Model
 The merged feature vector is input to a model that provides class probabilities.
