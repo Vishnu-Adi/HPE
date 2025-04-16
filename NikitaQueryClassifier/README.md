@@ -34,7 +34,7 @@ To test the classifier on a sample query, run:
 python DemoFile.ipynb
 ```
 
-Inside `hpe_query_demo.py`, you can modify the input query like so:
+Inside `DemoFile.ipynb`, you can modify the input query like so:
 
 ```python
 query = "how could HPE’s focus on sustainability have influenced its 2025 profitability?"
