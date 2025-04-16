@@ -67,4 +67,4 @@ Custom Matching: PhraseMatcher from spaCy is utilized to identify HPE-specific t
 These features are output as a fixed-length list and added to the sentence embedding
 
 3. Classification Model
-The merged feature vector is input to a model that provides class probabilities.
+The merged feature vector is input to a model that provides class probabilities and predicted classes.
