@@ -1,0 +1,8 @@
+sentence-transformers
+scikit-learn
+numpy
+matplotlib
+seaborn
+scipy
+nltk
+joblib
