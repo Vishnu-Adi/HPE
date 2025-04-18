@@ -22,7 +22,15 @@ Each input is classified into one or more of the following:
 
 ## 📁 File Structure
 
-├── gemini.py # Uses Google Gemini 2.0 Flash model ├── mistral.py # Uses Mistral (mistral-large-latest) ├── llama3.py # Uses Meta's LLaMA 3 via Azure Inference ├── phi4.py # Uses Phi-4 via Azure Inference ├── prompt.py # Contains the system prompt used for all models ├── requirements.txt # List of Python dependencies
+```plaintext
+.
+├── gemini.py         # Uses Google Gemini 2.0 Flash model
+├── llama3.py         # Uses Meta’s LLaMA 3 via Azure Inference
+├── mistral.py        # Uses Mistral via mistralai SDK
+├── phi4.py           # Uses Phi-4 model via Azure Inference
+├── prompt.py         # Shared classification prompt used by all models
+├── requirements.txt  # Project dependencies
+└── README.md         # Documentation
 
 
 ## 🧪 Requirements
@@ -49,21 +57,20 @@ Install dependencies:
 ```bash
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
-
+```bash
 pip install -r requirements.txt
-
+```bash
 # .env
-
 GOOGLE_API_KEY=your_google_gemini_api_key
 MISTRAL_API_KEY=your_mistral_api_key
 LLAMA_API_KEY=your_azure_llama3_api_key
 PHI_API_KEY=your_azure_phi4_api_key
-
+```bash
 python gemini.py    # Google Gemini
 python mistral.py   # Mistral via mistralai SDK
 python llama3.py    # Meta LLaMA 3 via Azure
 python phi4.py      # Phi-4 via Azure
-
+```plaintext
 Write the question: What was the highest revenue in fiscal year 2024?
 Response: Aggregate/Time-based
 
